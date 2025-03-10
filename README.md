@@ -1,1 +1,1 @@
-https://github.com/UlshinaM/zakrivayuschiy-teg-f
+https://github.com/UlshinaM/zakrivayuschiy-teg-f  Ссылка на опубликованный через Github сайт: https://ulshinam.github.io/zakrivayuschiy-teg-f/
