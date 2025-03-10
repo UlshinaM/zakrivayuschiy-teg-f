@@ -8,7 +8,7 @@
     --main-text-font-size: 1.125rem; /*18px*/
     --main-text-weight-header: 700; /*Вес шрифта в заголовке страницы и заголовках карточек*/
     --main-text-weight: 400; /*Вес шрифта для основного текста карточек и PressStart2P*/
-    --accent-text-font: 'PressStart2P'; 
+    --accent-text-font: 'PressStart2P';
     --accent-text-font-size: 0.875rem; /*14px*/
     --accent-text-header: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem); /*От 49px до 65px*/
     --accent-text-subheader: clamp(0.875rem, 0.55rem + 1.3867vw, 1.4375rem); /*От 14px до 23px*/
