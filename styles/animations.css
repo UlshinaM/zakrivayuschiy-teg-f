@@ -9,3 +9,80 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+.card__icon-button .core {
+    transition: fill 0.3s 0.03s; /*когда курсор уходит, — с задержкой в 0.03s*/
+    fill: var(--heart-icon-core, #FFFFFF);
+  }
+  
+  .card__icon-button:hover .core {
+    fill: var(--heart-icon-contour-color, #000000);
+    transition: fill 0.3s; /*значение у сердцевины сразу же при наведении мышки и в течение 0.3s*/
+  }
+  
+  .card__icon-button .main-body {
+    fill: var(--heart-icon-core, #FFFFFF);
+    transition: fill 0.3s;
+  }
+  
+  .card__icon-button:hover .main-body {
+    fill: var(--heart-icon-contour-color, #000000);
+    transition: fill 0.3s 0.05s;
+  }
+  
+  .like-icon:active .core {
+    fill: var(--heart-icon-main-body, red);
+    transition: fill 0.3s; /*значение у сердцевины сразу же при наведении мышки и в течение 0.3s*/
+  }
+  
+  .like-icon:active .main-body {
+    fill: var(--heart-icon-main-body, red);
+    transition: fill 0.3s 0.05s; /*значение у основного тела с задержкой при наведении мышки и в течение 0.3s*/
+  }
+  
+  .like-icon.is-liked .core {
+    fill: var(--heart-icon-main-body, red);
+    transition: fill 0.3s;
+  }
+  
+  .like-icon.is-liked .main-body {
+    fill: var(--heart-icon-main-body, red);
+    transition: fill 0.3s 0.05s; /*Параметры перехода из состояния :active, у основного тела с задержкой при клике и в течение 0.3s*/
+  }
+  
+  .like-icon.is-liked .contour {
+    fill: var(--heart-icon-main-body, red);
+    transition: fill 0.3s 0.06s;
+  }
+  
+  .like-icon.is-liked .heart {
+    animation: heartbeat 0.3s ease-in 0.1s;
+  }
+  
+  .like-icon.is-liked .sparks {
+    animation: sparkl 0.3s ease-in 0.3s;
+  }
+  
+  .like-icon .contour {
+    fill: var(--heart-icon-contour-color, #000000);
+    transition: fill 0.1s linear;
+  }
+  
+  @keyframes heartbeat {
+    from {
+      scale: 1;
+      transform-origin: center;
+    }
+    to {
+      scale: 1.25;
+      transform-origin: center;
+    }
+  }
+  
+  @keyframes sparkl {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
