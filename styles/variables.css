@@ -14,9 +14,9 @@
     --accent-text-subheader: clamp(0.875rem, 0.55rem + 1.3867vw, 1.4375rem); /*От 14px до 23px*/
 
     --main-width: clamp(23.4375rem, 11.8451rem + 49.4607vw, 43.75rem); /*При достижении этого размера ширина карточек перестанет увеличиваться, а будут только отступы по бокам. Сделать отступы центрированием контента*/
-    --header-start-footer-end-padding: 6.25rem; /*100px*/
+    --header-start-main-end-padding: 6.25rem; /*100px*/
     --header-width: clamp(23.4375rem, 11.7007rem + 50.077vw, 43.75rem); /*От 375px до 700px*/
-    --header-height: clamp(20.4375rem, 18.9569rem + 6.3174vw, 23rem); /*От 327px до 368px*/
+    --header-block-padding: clamp(7.5rem, 7.2111rem + 1.2327vw, 8rem); /*От 120px до 128px*/
     --header-subheader-gap: 1.25rem; /*20px*/
     --card-between-gap: 3.125rem; /*50px*/
     --card-header-inline-paddng: 0.625rem; /*10px*/
@@ -30,8 +30,7 @@
     --text-shadow-width: 0.0625rem; /*1px*/
     --watermark-block-start-padding: 1.4375rem; /*23px из-за границы*/
     --watermark-inline-end-padding: clamp(0.6875rem, 0.2541rem + 1.849vw, 1.4375rem); /*От 11px до 23px из-за границы*/
-    --footer-inline-size: clamp(19.375rem, 18.3277rem + 4.4684vw, 21.1875rem); /*От 310px до 339px*/
-    --footer-block-start-padding: 3.125rem; /*50px*/
+    --save-button-inline-size: clamp(19.375rem, 18.3277rem + 4.4684vw, 21.1875rem); /*От 310px до 339px*/
 
     --main-text-color: #000000;
     --background-page-color: #FFFFFF;
